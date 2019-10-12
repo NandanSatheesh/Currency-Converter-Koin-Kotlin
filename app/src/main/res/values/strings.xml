@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">currency-converter</string>
+    <string name="app_title_text">currency\nconverter</string>
+    <string name="go_text_label">GO</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/fromCurrencyEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_extra_large"
+            android:fontFamily="@font/fira_sans_regular"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_semi_large"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/fromCurrencySelectSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_extra_large"
+            android:layout_marginEnd="@dimen/spacing_extra_large"
+            android:fontFamily="@font/fira_sans_regular"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_semi_large"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/fromCurrencyEditText" />
+
+        <EditText
+            android:id="@+id/toCurrencyEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_extra_large"
+            android:layout_marginTop="@dimen/spacing_slightly_large"
+            android:layout_marginEnd="@dimen/spacing_extra_large"
+            android:fontFamily="@font/fira_sans_regular"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_semi_large"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fromCurrencySelectSpinner" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/toCurrencySelectSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_extra_large"
+            android:layout_marginEnd="@dimen/spacing_extra_large"
+            android:fontFamily="@font/fira_sans_regular"
+            android:inputType="numberDecimal|numberSigned"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size_semi_large"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/toCurrencyEditText" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
