@@ -1,5 +1,7 @@
 # Currency-Converter-Koin-Kotlin
 
+[![forthebadge](https://forthebadge.com/images/badges/built-for-android.svg)](https://forthebadge.com)  [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+
 A sample app made in Kotlin using MVVM Architecture to demonstrate the usage of various tools and libraries.  
 Design Inspired by - [Currency Converter - Behance](https://www.behance.net/gallery/72341247/Currency-Converter)
 
